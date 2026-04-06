@@ -1,0 +1,37 @@
+.DS_Store
+**/.DS_Store
+**/.ipynb_checkpoints/
+
+aclImdb/
+aclImdb*/
+aclImdb*.zip
+aclImdb*.tar.gz
+
+# Unreleased images
+imgs/a2_initial_breakpoint.png
+
+# Unreleased course materials
+assignments/Assignment2.md
+assignments/Assignment3.md
+assignments/Assignment3-hints.md
+assignments/Assignment4.md
+assignments/Assignment5.md
+assignments/Assignment5-hints.md
+assignments/presentation.md
+assignments/a2_files/
+assignments/a3_files/
+assignments/a4_files/
+assignments/a5_files/
+
+# Future demo releases
+demos/4_14/
+demos/4_16/
+demos/4_21/
+demos/4_23/
+demos/4_28/
+demos/4_30/
+demos/5_5/
+demos/5_7/
+demos/5_12/
+demos/5_14/
+demos/5_19/
