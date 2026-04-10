@@ -10,4 +10,4 @@ Directory structure:
 - `demos/` in-class demo code and notebooks
 - `imgs/` images referenced by course materials
 
-Updated April 6, 2026
+Updated April 5, 2026
