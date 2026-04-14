@@ -15,20 +15,19 @@ demos/4_09/output.txt
 imgs/a2_initial_breakpoint.png
 
 # Unreleased course materials
-assignments/Assignment2.md
+# assignments/Assignment2.md
 assignments/Assignment3.md
 assignments/Assignment3-hints.md
 assignments/Assignment4.md
 assignments/Assignment5.md
 assignments/Assignment5-hints.md
 assignments/presentation.md
-assignments/a2_files/
+# assignments/a2_files/
 assignments/a3_files/
 assignments/a4_files/
 assignments/a5_files/
 
 # Future demo releases
-demos/4_14/*_soln.py
 demos/4_16/
 demos/4_21/
 demos/4_23/
