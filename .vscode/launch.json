@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": "C:\\Users\\johns\\Downloads\\LING 471\\aclImdb\\train\\pos\\1_7.txt"
+            "args": "C:\\Users\\johns\\Downloads\\LING471\\aclImdb\\train\\pos\\1_7.txt"
         }
     ]
 }
