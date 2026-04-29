@@ -79,10 +79,10 @@ def countTokens(text):
     # the word is stored as a key, we will increment the count by 1.
 
     # TODO: Write a for loop here, doing what is described above.
-    # for word in tokens:
-    #if word not in token_counts:
-    token_counts[word] = 0
-    token_counts[word] += 1
+    for word in tokens:
+        if word not in token_counts:
+            token_counts[word] = 0
+        token_counts[word] += 1
 
     # Do not forget to return the result!
     return token_counts
@@ -119,9 +119,9 @@ def predictSimplistic(counts):
     # of the if-else block, or you can have three return statements within the if-else block.
     #if pos_count > neg_count:
     if pos_count > neg_count:
-        return POSITIVE
+        return POS_REVIEW
     elif neg_count > pos_count:
-        return NEGATIVE
+        return NEG_REVIEW
     else:
         return NONE
     # TODO: You will modify the below return statement or move it into your if-else block when you write it.
@@ -138,7 +138,7 @@ def main(argv):
     # The file that you will read should be passed as the argument to the program.
     # From python's point of view, it is the element number 1 in the array called argv.
     # argv is a special variable name. We don't define it ourselves; python knows about it.
-    filename = argv[1]  # Place the first breakpoint here, when starting.
+    filename = argv[0]  # Place the first breakpoint here, when starting.
 
     # Now, we will call a function called cleanFileContents on the filename we were passed.
     # NB: We could have called the function directly on argv[1]; that would have the same effect.
